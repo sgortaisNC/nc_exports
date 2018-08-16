@@ -1,0 +1,19 @@
+export_xls.export_xls:
+  path: '/admin/export-xls'
+  defaults:
+    _form: '\Drupal\export_xls\Form\ExportAdminForm'
+    _title: 'Export de contenu'
+  requirements:
+    _permission: 'administer import_csv'
+  options:
+    no_cache: 'TRUE'
+
+export_xls.export_annuaire:
+  path: '/export-annuaire/{uid}'
+  defaults:
+    _controller: '\Drupal\export_xls\Controller\ExportXlsController::annuaire'
+    uid: '1'
+  requirements:
+    _access: 'TRUE'
+  options:
+    no_cache: 'TRUE'

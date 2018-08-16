@@ -1,0 +1,46 @@
+<?php
+
+$contentType = 'projet';
+
+$correspondance = [
+    "title|text",
+    "field_titre_en|text",
+    "field_identifiant|text",
+    "field_dossier|text",
+    "field_auteur|text",
+    "field_nom_porteur|text",
+    "field_adresse_porteur|textarea",
+    "field_nom_responsable|text",
+    "field_courriel|emails",
+    "field_telephone|text",    
+    "field_siteweb|urls",
+    "field_rubriques|taxosTitle|rubriques",
+    "field_themes|taxosTitle|themes",
+    "field_echelons|taxosTitle|echelons",
+    "field_zones|taxosTitle|zones",
+    "field_pdr|taxosTitle|pdr",
+    "field_fonds|taxosTitle|fonds",
+    "field_mesure|taxoTitle|mesures",
+    "field_cooperation|taxoTitle|cooperation",
+    "field_themes_coop|taxoTitle|themes_coop",
+    "field_themes_pei|taxoTitle|themes_pei",
+    "field_dates|dates|/",
+    "field_date|date|/",
+    "body|textarea",
+    "field_body_en|textarea",
+    "field_description|textarea",
+    "field_description_en|textarea",
+    "field_recommandations|textarea",
+    "field_cout_total|text",
+    "field_contribution|text",
+    "field_autres_contributions|text",
+    "field_financement|text",
+    "field_fichiers|files|public://events/fichier/2018-03/",
+    "field_nom_temoin|text",
+    "field_fonction_temoin|text",
+    "field_message_temoin|textarea",
+    //PARTENAIRES
+    //COORDONNEES GPS
+    "field_annee|taxoTitle|annees",
+    "field_statut_projet|liste",
+];

@@ -1,0 +1,18 @@
+{#
+/**
+ * @file
+ * Default theme implementation to print Import CSV text.
+ *
+ * Available variables:
+ *   - source_text
+ *
+ * @see template_preprocess_import_csv()
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="import-csv">
+{% for item in source_text %}
+  <p>{{ item }}</p>
+{% endfor %}
+</div>

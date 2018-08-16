@@ -1,0 +1,4 @@
+export_xls.config:
+    title: "Export"
+    parent: system.admin_config
+    route_name: export_xls.export_xls

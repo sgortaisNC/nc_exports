@@ -1,0 +1,10 @@
+name: Export XLS
+type: module
+description: "Export de fichier XLS"
+package: Administration
+# core: 8.x
+
+configure: export_xls.settings
+
+# Information added by Drupal.org packaging script on 2016-11-10
+core: '8.x'
